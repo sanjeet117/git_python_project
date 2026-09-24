@@ -7,5 +7,6 @@ class User:
         print(f"Name: {self.name}")
         print(f"Email: {self.email}")
 
-    def update_email(self, new_email):
-        self.email = new_email
+    
+
+    
