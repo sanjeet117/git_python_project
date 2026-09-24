@@ -1,15 +1,3 @@
-
-nahi lagaya. Isliye uske baad ka **poora Git workflow code block ke andar/garbled format mein render ho raha hai**.
-
-### Isliye ab aur pieces add mat karo.
-
-**Best solution:** poora README ek baar clean final version se replace karte hain. Is baar main formatting ko simple rakh raha hoon — koi complicated nested formatting nahi.
-
-## Final README — complete replacement
-
-README.md mein **Ctrl+A → ye poora content paste → Ctrl+S**:
-
-```markdown
 # Git Python Project
 
 A simple Python project created to demonstrate a basic Git and GitHub workflow.
