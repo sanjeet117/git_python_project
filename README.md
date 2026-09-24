@@ -1,35 +1,47 @@
 # Git Python Project
 
-A simple Python project created to demonstrate the Git and GitHub workflow.
+A simple Python project created to demonstrate a basic Git and GitHub workflow.
 
 ## Project Description
 
-This project contains basic Python modules for calculator operations, user management, and utility functions.
+This project contains multiple Python modules that work together to demonstrate basic Python functionality and Git version control.
 
 ## Project Structure
 
-- `main.py` - Main program
+- `main.py` - Main program that uses the functions and class from other modules
 - `calculator.py` - Calculator functions
 - `user.py` - User class
-- `utils.py` - Utility functions
+- `utils.py` - Greeting utility function
 - `README.md` - Project documentation
-- `.gitignore` - Files ignored by Git
+- `.gitignore` - Specifies files and folders that Git should ignore
 
-## Features
+## Python Features
+
+### Calculator
+
+The `calculator.py` file contains:
 
 - Addition
 - Subtraction
 - Multiplication
 - Division
 - Power calculation
-- User information display
-- Email update
-- Even number checking
-- Greeting function
 
-## Git Workflow
+### User Management
 
-### 1. Initialize Git
+The `user.py` file contains a `User` class with:
+
+- Name
+- Email
+- Display user details
+
+### Utility
+
+The `utils.py` file contains a greeting function.
+
+## Running the Project
+
+Run the following command:
 
 ```bash
-git init
+python main.py
